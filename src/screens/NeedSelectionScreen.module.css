@@ -1,0 +1,45 @@
+.container {
+  gap: var(--spacing-lg);
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  color: var(--lilac-ash);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.backButton:hover {
+  color: var(--jet-black);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--jet-black);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--lilac-ash);
+  font-weight: 500;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}

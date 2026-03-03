@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1.25rem;
+  background: white;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(39, 45, 45, 0.06);
+  transition: box-shadow var(--transition-fast);
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(39, 45, 45, 0.1);
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: var(--alice-blue);
+  border-radius: var(--radius-md);
+  color: var(--forest-green);
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.label {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--jet-black);
+}
+
+.description {
+  font-size: 0.875rem;
+  color: var(--lilac-ash);
+  font-weight: 500;
+}
