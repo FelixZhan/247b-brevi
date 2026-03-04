@@ -23,10 +23,19 @@ export function HomeScreen({ onStartSession, loading }: HomeScreenProps) {
           animate={{ scale: 1, rotate: 0 }}
           transition={{ delay: 0.2, type: 'spring', stiffness: 200, damping: 20 }}
         >
-          <div className={styles.pauseIcon}>
-            <span />
-            <span />
-          </div>
+          <svg viewBox="0 0 100 100" className={styles.logoSvg}>
+            <path
+              d="M50 10 C25 10, 10 30, 10 55 C10 80, 30 90, 50 90 C70 90, 90 75, 90 50 C90 25, 70 10, 50 10"
+              fill="currentColor"
+            />
+            <path
+              d="M35 75 Q50 55, 55 35 M35 75 Q45 60, 65 55"
+              fill="none"
+              stroke="#F7F9FA"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+          </svg>
         </motion.div>
 
         <motion.h1
@@ -35,7 +44,7 @@ export function HomeScreen({ onStartSession, loading }: HomeScreenProps) {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
-          Pauses
+          Brevi
         </motion.h1>
 
         <motion.p

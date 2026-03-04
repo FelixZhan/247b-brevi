@@ -31,13 +31,13 @@
 
 .primary {
   background: var(--forest-green);
-  color: var(--alice-blue);
-  box-shadow: 0 4px 14px rgba(46, 111, 64, 0.25);
+  color: white;
+  box-shadow: 0 4px 14px rgba(74, 155, 140, 0.3);
 }
 
 .primary:hover:not(:disabled) {
   background: var(--forest-green-light);
-  box-shadow: 0 6px 20px rgba(46, 111, 64, 0.35);
+  box-shadow: 0 6px 20px rgba(74, 155, 140, 0.4);
 }
 
 .secondary {
